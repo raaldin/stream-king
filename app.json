@@ -3,7 +3,8 @@
     "name": "Stream King",
     "slug": "stream-king",
     "version": "1.0.0",
-    "sdkVersion": "50.0.0",
+    "sdkVersion": "52.0.0",
+    "runtimeVersion": "1.0.0",
     "platforms": [
       "ios",
       "android"
@@ -16,7 +17,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/62c250f7-8640-4001-9e50-28611a7693d3"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -24,6 +26,15 @@
     "extra": {
       "eas": {
         "projectId": "62c250f7-8640-4001-9e50-28611a7693d3"
+      }
+    },
+    "android": {
+      "package": "com.aldi1.streamking"
+    },
+    "ios": {
+      "bundleIdentifier": "com.aldi1.streamking",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
       }
     }
   }
