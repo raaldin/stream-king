@@ -38,10 +38,7 @@ target 'StreamKing' do
 
 use_react_native!(
   :path => config[:reactNativePath],
-  :app_path => "#{Dir.pwd}",
-  :modules_provider => {
-    :privacy_manifest_enabled => podfile_properties['apple.privacyManifestAggregationEnabled'] != 'false'
-  }
+  :app_path => "#{Dir.pwd}"
 )
 
   post_install do |installer|
